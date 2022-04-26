@@ -1,51 +1,88 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
 
 * {
     height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
 
     background-color: #4cb5ae;
     background-attachment: fixed;
-    font-family:Arial, Helvetica, sans-serif;
     color: white;
-    text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width:auto;
     height: auto;
 }
 h1 {
-    text-align:justify, center;
+    display: flex;
+    justify-content: center;
     font-size: 60px;
     background-color: #FFD046; width:auto;
     background-position: center;
-    background-size: 40px;
+    background-size: 20px;
     border-radius: 30px;
-    padding: 5px;
-    margin: auto;
+    margin: 25px auto;
     width:550px;
     color: #3C3C3B;
+    text-align: center;
 }
 h2 {
-    text-align:justify, center;
+    display: flex;
+    justify-content: center;
     font-size: 25px;
     background-color: #FFD046; width:0;
     background-position: center;
     background-size: 40px;
     border-radius: 30px;
     padding: 10px;
-    margin: auto;
-    width:780px;
+    margin: 0px auto 25px auto;
+    width:760px;
     height:auto;
     color: #3C3C3B;
+    text-align: center;
 }
-a {
-    color: #3C3C3B;
+
+.botoes {
+    display: flex;
+    justify-content:space-evenly;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    margin-bottom: 4em;
+}
+
+#bot1 {
     background-color: #FFD046;
-    padding: 10px;
-    margin: auto;
-    border-radius: 60px;
-    line-height: 70px;
-    font-size: 30px;
+    padding: 0.4em;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#bot1:visited {
+    color: black;
+}
+
+#bot2 {
+    background-color: #FFD046;
+    padding: 0.4em;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#bot2:visited {
+    color: black;
+}
+
+#bot3 {
+    background-color: #FFD046;
+    padding: 0.4em;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#bot3:visited {
+    color: black;
 }
